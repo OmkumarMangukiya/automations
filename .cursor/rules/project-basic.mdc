@@ -1,0 +1,224 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Professional Website Development Rules
+
+## Stack Requirements
+- ALWAYS use Next.js App Router
+- ALWAYS use TypeScript with strict mode
+- ALWAYS use Tailwind CSS for styling
+- ALWAYS use shadcn/ui components as base
+- ALWAYS use Framer Motion for animations
+
+## Naming Conventions Commands
+
+### Components
+- ALWAYS use PascalCase for components
+- ALWAYS use descriptive names that indicate purpose
+- ALWAYS prefix with context when needed
+- NEVER use generic names like Card, Button without context
+
+### Files & Directories
+- ALWAYS use kebab-case for file names
+- ALWAYS use camelCase for directories
+- ALWAYS group related components in feature folders
+- ALWAYS use index.ts for clean imports
+
+### CSS Classes
+- ALWAYS use Tailwind utility classes
+- ALWAYS create custom components for repeated patterns
+- ALWAYS use consistent spacing scale
+- NEVER use arbitrary values unless absolutely necessary
+
+### Variables & Functions
+- ALWAYS use camelCase for variables and functions
+- ALWAYS use descriptive names
+- ALWAYS prefix boolean variables with is/has/can/should
+- ALWAYS use action verbs for functions
+
+## Professional UI Commands
+
+### Typography
+- ALWAYS establish clear hierarchy with consistent font sizes
+- ALWAYS use proper font weights for emphasis
+- ALWAYS maintain optimal line heights for readability
+- ALWAYS ensure proper contrast ratios
+- ALWAYS use system fonts or professional web fonts
+
+### Colors
+- ALWAYS use a consistent color palette
+- ALWAYS define semantic color meanings
+- ALWAYS maintain brand consistency
+- ALWAYS use neutral grays for backgrounds
+- ALWAYS test colors in light and dark modes
+
+### Spacing
+- ALWAYS use consistent spacing scale
+- ALWAYS maintain generous whitespace
+- ALWAYS align elements to grid system
+- ALWAYS use proper padding and margins
+- ALWAYS create breathing room between sections
+
+### Layout
+- ALWAYS design mobile-first
+- ALWAYS use responsive breakpoints consistently
+- ALWAYS create flexible grid systems
+- ALWAYS ensure proper content hierarchy
+- ALWAYS test on multiple screen sizes
+
+## Component Architecture Commands
+
+### Structure
+- ALWAYS separate concerns clearly
+- ALWAYS keep components small and focused
+- ALWAYS use composition over inheritance
+- ALWAYS implement proper prop interfaces
+- ALWAYS provide default values for optional props
+
+### State Management
+- ALWAYS keep state as local as possible
+- ALWAYS lift state only when necessary
+- ALWAYS use proper loading and error states
+- ALWAYS implement optimistic updates
+- ALWAYS handle edge cases gracefully
+
+### Performance
+- ALWAYS lazy load non-critical components
+- ALWAYS optimize images and assets
+- ALWAYS minimize bundle size
+- ALWAYS implement proper caching strategies
+- ALWAYS monitor Core Web Vitals
+
+## Animation & Interaction Commands
+
+### Micro-interactions
+- ALWAYS add subtle hover effects
+- ALWAYS provide visual feedback for actions
+- ALWAYS use consistent easing curves
+- ALWAYS keep animations under 300ms for micro-interactions
+- ALWAYS respect user motion preferences
+
+### Page Transitions
+- ALWAYS implement smooth page transitions
+- ALWAYS show loading states during navigation
+- ALWAYS maintain context during transitions
+- ALWAYS use consistent animation patterns
+- ALWAYS optimize for perceived performance
+
+### Interactive Elements
+- ALWAYS provide clear focus states
+- ALWAYS show active/pressed states
+- ALWAYS add loading spinners for async actions
+- ALWAYS implement proper error handling
+- ALWAYS give immediate user feedback
+
+## Professional Standards Commands
+
+### Accessibility
+- ALWAYS use semantic HTML elements
+- ALWAYS provide proper ARIA labels
+- ALWAYS ensure keyboard navigation works
+- ALWAYS maintain proper heading hierarchy
+- ALWAYS test with screen readers
+
+### SEO Optimization
+- ALWAYS use proper meta tags
+- ALWAYS implement structured data
+- ALWAYS optimize page titles and descriptions
+- ALWAYS use proper heading structure
+- ALWAYS ensure fast loading times
+
+### Content Strategy
+- ALWAYS write clear, concise copy
+- ALWAYS use active voice
+- ALWAYS focus on user benefits
+- ALWAYS maintain consistent tone
+- ALWAYS proofread all content
+
+## Quality Assurance Commands
+
+### Code Quality
+- ALWAYS use TypeScript strict mode
+- ALWAYS implement proper error boundaries
+- ALWAYS handle loading states
+- ALWAYS validate user inputs
+- ALWAYS write clean, readable code
+
+### Testing
+- ALWAYS test on multiple devices
+- ALWAYS verify responsive design
+- ALWAYS check cross-browser compatibility
+- ALWAYS validate form submissions
+- ALWAYS test edge cases
+
+### Performance
+- ALWAYS optimize images before deployment
+- ALWAYS minimize JavaScript bundles
+- ALWAYS implement proper caching
+- ALWAYS monitor loading times
+- ALWAYS use proper image formats
+
+## Deployment Commands
+
+### Pre-deployment Checklist
+- ALWAYS run build process without errors
+- ALWAYS verify all links work correctly
+- ALWAYS test form submissions
+- ALWAYS check responsive design
+- ALWAYS validate HTML and CSS
+
+### Production Optimization
+- ALWAYS enable compression
+- ALWAYS set proper cache headers
+- ALWAYS optimize critical rendering path
+- ALWAYS implement proper error handling
+- ALWAYS monitor performance metrics
+
+## Professional Polish Commands
+
+### Visual Hierarchy
+- ALWAYS establish clear information architecture
+- ALWAYS use consistent visual patterns
+- ALWAYS guide user attention effectively
+- ALWAYS maintain proper contrast
+- ALWAYS create visual breathing room
+
+### User Experience
+- ALWAYS minimize cognitive load
+- ALWAYS provide clear navigation
+- ALWAYS implement intuitive interactions
+- ALWAYS reduce friction in user flows
+- ALWAYS test with real users
+
+### Brand Consistency
+- ALWAYS maintain visual identity
+- ALWAYS use consistent messaging
+- ALWAYS apply brand guidelines
+- ALWAYS ensure cohesive experience
+- ALWAYS represent brand values
+
+## Development Workflow Commands
+
+### File Organization
+- ALWAYS organize files logically
+- ALWAYS use consistent folder structure
+- ALWAYS implement proper imports
+- ALWAYS maintain clean architecture
+- ALWAYS document complex logic
+
+### Version Control
+- ALWAYS use meaningful commit messages
+- ALWAYS follow branching strategy
+- ALWAYS review code before merging
+- ALWAYS maintain clean commit history
+- ALWAYS tag releases properly
+
+### Collaboration
+- ALWAYS document component usage
+- ALWAYS provide clear prop descriptions
+- ALWAYS maintain style guidelines
+- ALWAYS communicate design decisions
+- ALWAYS share knowledge with team
+
